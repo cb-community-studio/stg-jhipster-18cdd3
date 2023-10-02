@@ -1,0 +1,50 @@
+application {
+  config {
+    applicationType monolith
+    authenticationType jwt
+    baseName stgjhipster
+    blueprints []
+    buildTool maven
+    cacheProvider redis
+    clientFramework react
+    clientPackageManager npm
+    clientTheme yeti
+    creationTimestamp 1696246413524
+    databaseType sql
+    devDatabaseType mysql
+    dtoSuffix DTO
+    enableGradleEnterprise false
+    enableHibernateCache true
+    enableSwaggerCodegen false
+    enableTranslation true
+    gradleEnterpriseHost ""
+    jhiPrefix jhi
+    jwtSecretKey "G06hDhcMfcFyvLVxfj9F3TkQyenyAXvbBIcCvv2jnXwSLdAEjQFsL8+ngMgDLrA79r3uX5+PwnZrLvPpM2j1NlEe2qaB3k3v3qmaYqit4yW5RCvc0A5ipTq7kP3H8tFR/3W7axKzaEc1jQ914fqX2cGnmEciyiUaoqm7RueYJA=="
+    languages [en, my]
+    messageBroker false
+    microfrontend false
+    microfrontends []
+    nativeLanguage en
+    otherModules []
+    packageName my.codebridge.community.stgjhipster
+    prodDatabaseType mysql
+    reactive true
+    searchEngine false
+    serverPort 8080
+    serviceDiscoveryType eureka
+    skipClient false
+    skipUserManagement false
+    testFrameworks []
+    websocket false
+    withAdminUi true
+  }
+
+  
+}
+
+
+
+paginate * with pagination
+service * with serviceImpl
+dto * with mapstruct
+
